@@ -1,0 +1,7 @@
+name: 'My Module'
+type: module
+core_version_requirement: ^10
+description: 'Code to spark my module development understanding!'
+package: 'Innoraft module Dev.'
+dependencies:
+  - paragraphs:paragraphs
