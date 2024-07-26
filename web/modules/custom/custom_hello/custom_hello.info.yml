@@ -1,0 +1,7 @@
+name: 'Custom Hello'
+type: module
+description: 'Displays a custom greeting to the user.'
+package: Custom
+core_version_requirement: ^10
+dependencies:
+  - paragraphs:paragraphs
