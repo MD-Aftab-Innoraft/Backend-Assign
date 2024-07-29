@@ -5,3 +5,4 @@ description: 'Code to spark my module development understanding!'
 package: 'Innoraft module Dev.'
 dependencies:
   - paragraphs:paragraphs
+  
