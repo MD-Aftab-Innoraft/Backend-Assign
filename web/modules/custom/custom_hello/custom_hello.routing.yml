@@ -1,0 +1,8 @@
+custom_hello.greeting:
+  path: '/hello'
+  defaults:
+    _controller: '\Drupal\custom_hello\Controller\HelloController::greet'
+    _title: 'Hello Page'
+  requirements:
+    _permission: 'access custom hello page'
+    
