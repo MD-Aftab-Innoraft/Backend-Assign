@@ -5,3 +5,4 @@ custom_hello.greeting:
     _title: 'Hello Page'
   requirements:
     _permission: 'access custom hello page'
+    
