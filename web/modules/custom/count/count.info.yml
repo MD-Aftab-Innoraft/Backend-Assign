@@ -1,0 +1,7 @@
+name: 'count'
+type: module
+description:  'Counts the number of times a node is viewed in session'
+package: custom
+core_version_requirement: ^10
+dependencies:
+  - drupal:node
