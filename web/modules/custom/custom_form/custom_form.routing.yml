@@ -1,0 +1,23 @@
+custom_form.custom_form_config:
+  path: '/admin/config/system/custom-config'
+  defaults:
+    _title: 'Custom form config'
+    _form: 'Drupal\custom_form\Form\CustomConfigForm'
+  requirements:
+    _permission: 'administer site configuration'
+
+custom_form.custom_form_config_ajax:
+  path: '/admin/config/system/custom-config-ajax'
+  defaults:
+    _title: 'Custom config ajax form'
+    _form: 'Drupal\custom_form\Form\CustomConfigFormAjax'
+  requirements:
+    _permission: 'administer site configuration'
+
+custom_form.one_time_login:
+  path: '/one-time-login'
+  defaults:
+    _title: 'One Time Login Link Generation'
+    _form: 'Drupal\custom_form\Form\OneTimeLoginLinkForm'
+  requirements:
+    _permission: 'administer site configuration'
