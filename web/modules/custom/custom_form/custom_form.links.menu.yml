@@ -7,3 +7,4 @@ custom_form.config.ajax:
   title: Custom config ajax form
   parent: system.admin_config_system
   route_name: custom_form.custom_form_config_ajax
+  
