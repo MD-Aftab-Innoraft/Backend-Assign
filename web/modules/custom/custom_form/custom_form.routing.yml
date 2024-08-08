@@ -21,4 +21,3 @@ custom_form.one_time_login:
     _form: 'Drupal\custom_form\Form\OneTimeLoginLinkForm'
   requirements:
     _permission: 'administer site configuration'
-    
