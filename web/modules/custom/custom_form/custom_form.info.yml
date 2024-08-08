@@ -1,0 +1,7 @@
+name: 'Custom Form'
+type: module
+description: 'This module saves user input data in the database.'
+package: Custom
+core_version_requirement: ^10 || ^11
+dependencies:
+  - drupal:system
