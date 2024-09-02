@@ -1,0 +1,9 @@
+sample_routing.example:
+  path: '/sample-routing/example'
+  defaults:
+    _title: 'My Custom Route'
+    _controller: '\Drupal\sample_routing\Controller\SampleRoutingController::content'
+  requirements:
+    _permission: 'access the custom page'
+    _role: 'administrator+content_editor'
+    _custom_access: 'sample_routing.access_check::access' 
