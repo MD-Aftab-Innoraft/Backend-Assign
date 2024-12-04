@@ -1,0 +1,5 @@
+name: 'DP Router'
+type: module
+core_version_requirement: ^10
+description: 'Backend Training Router Module.'
+package: 'DP Modules'

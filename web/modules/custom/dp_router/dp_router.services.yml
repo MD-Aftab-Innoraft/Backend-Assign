@@ -1,0 +1,9 @@
+services:
+  dprouter.route_subscriber:
+    class: Drupal\dprouter\Routing\CustomRouteSubscriber
+    tags:
+      - { name: event_subscriber }
+  dprouter.custom_access_check:
+    class: Drupal\dprouter\Access\CustomAccessCheck
+    tags:
+      - { name: access_check }
